@@ -5,9 +5,11 @@ const helloWorld = function() {
 function sayHello(name) {
     if (name === undefined || name === "" || name === null || name === true|| name === false) {
         return "Hello, World!";
-    } else if (typeof name === "number"){
+    }
+    else if (typeof name === "number"){
         return "Hello, World!";
-    }else{
+    }
+    else{
         return "Hello, " + name + "!";
     }
 }

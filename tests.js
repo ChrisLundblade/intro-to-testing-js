@@ -44,4 +44,10 @@ describe('sayHello',function(){
     it('should return "Hello World!" when the boolean false is passed as an argument',function(){
         expect(sayHello(false)).toBe("Hello, World!");
     });
+    it('should return "Hello World!" when the number 5 is passed as an argument',function(){
+        expect(sayHello(5)).toBe("Hello, World!");
+    });
+    it('should return "Hello World!" when the number 2.3 is passed as an argument',function(){
+        expect(sayHello(2.3)).toBe("Hello, World!");
+    });
 })
