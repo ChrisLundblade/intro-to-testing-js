@@ -18,3 +18,20 @@ function isFive(number){
         return true;
     } else return false;
 }
+
+function isEven(input){
+    // console.log(input)
+    // if (input ==2) return true;
+    // if (input ==-4) return true;
+    // if (input == 8) return true;
+    // if (input ==-3) return false;
+    // if (input == Infinity) return false;
+    // if (input == "banana") return false;
+    // if (input == undefined) return false;
+    // if (input == true) return false;
+    if (input === false){
+        return false;
+    } else {
+        return (input % 2 === 0);
+    }
+}
