@@ -35,3 +35,12 @@ function isEven(input){
         return (input % 2 === 0);
     }
 }
+function isVowel(char){
+
+    if(char=="a" || char == "A"|| char == "e"|| char == "E"|| char == "i"|| char == "I"|| char == "o"|| char == "O"|| char == "U"|| char == "u"){
+        return true;
+    } else return false;
+    // else if(char == "y" || char == 4 || char ===true || char ===false || char === undefined || char === "banana"){
+    //     return false;
+    // }
+}
