@@ -44,3 +44,31 @@ function isVowel(char){
     //     return false;
     // }
 }
+function add(num1,num2){
+    // if(num1 ===2 && num2 ===3){
+    // return 5;
+    // }
+    // if(num1 ===-3 && num2 ===-9){
+    //     return -12;
+    // }
+    // if(num1 ===-3 && num2 ===-9){
+    //     return -12;
+    // }
+    // if(num1 ==="5" && num2 ===6){
+    //     return 11;
+    // }
+    // if(num1 ==="-4" && num2 ==="10"){
+    //     return 6;
+    // }
+    // if(num1 ==="banana" && num2 ==="split"){
+    //     return NaN;
+    // }
+    // if(num1 ===2 && num2 ==="apples"){
+    //     return NaN;
+    // }
+    // if(num1 ==undefined && num2 ==undefined){
+    //     return NaN;
+    // }
+
+    return parseFloat(num1) + parseFloat(num2);
+}
